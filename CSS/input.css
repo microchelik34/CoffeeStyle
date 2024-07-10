@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-Karla;
+    }
+}
+
+/*Section 1*/
+
+    /*Header*/
+    .headerClass {
+        @apply h-[80px];
+    }
+
+
+    /*Menu*/
+    .menuClass {
+        @apply w-[656px] h-[30px]
+    }
+
+
+    /*Actions*/
+    .actions {
+        @apply w-[92px] h-[26px]
+    }
+
+    .basket {
+        @apply w-[20px] h-[18px]
+    }
+
+    /*Hero*/
+    .back {
+        @apply w-[1380px] h-[530px]
+    }
+
+    .backText {
+        @apply max-w-[793px]
+    }
+
+    .backButton {
+        @apply w-[231px] h-[18px]
+    }
+
+
+/*Section 2*/
+
+    /*Text*/
+
+    .textH {
+        @apply max-w-[578px]
+    }
+
+    .textP {
+        @apply max-w-[658px]
+    }
+
+    .textB {
+        @apply max-w-[133px]
+    }
+
+
+    /*2 Tiles*/
+    .textTwoTiles {
+        @apply max-w-[940px] h-[18px]
+    }
+
+    .gridTwoTiles {
+        @apply max-w-[960px]
+    }
+     .colTwoTiles {
+         @apply max-w-[480px] h-[653px]
+     }
+
+
+     /*9 Tiles*/
+    .gridNineTiles {
+        @apply max-w-[960px]
+    }
+
+    .textNineTiles {
+        @apply max-w-[940px] h-[18px]
+    }
+
+    .colNineTiles {
+        @apply max-w-[317px] h-[543px]
+    }
+
+
+    /*CoffeeMagazine*/
+    .gridCoffeeMag {
+        @apply max-w-[940px]
+    }
+
+    .firstTextCoffeeMag {
+        @apply max-w-[400px]
+    }
+
+    .secondTextCoffeeMag {
+        @apply max-w-[237px]
+    }
+
+    .thirdTextCoffeeMag {
+        @apply max-w-[353px]
+    }
+
+    .buttonCoffeeMag {
+        @apply w-[173px] h-[36px]
+    }
+
+
+/*Section 3*/
+
+    /*Background*/
+    .imgBackground {
+        @apply w-[1440px] h-[340px]
+    }
+
+    /*History table*/
+    .textHistoryTable {
+        @apply max-w-[940px] h-[18px]
+    }
+
+    .gridHistoryTable {
+        @apply max-w-[960px]
+    }
+
+    .colsHistoryTable {
+        @apply max-w-[300px]
+    }
+
+
+    /*Subscribe*/
+    .backSub {
+        @apply w-[1380px] h-[327px]
+    }
+
+    .containerSub {
+        @apply w-[940px] h-[162px]
+    }
+
+    .containerInSub {
+        @apply  w-[489px] h-[54px]
+    }
+
+    .formSub {
+        @apply w-[350px] h-[54px]
+    }
+
+    .buttonSub {
+        @apply w-[129px] h-[54px]
+    }
+
+    /*FAQ*/
+    .containerFAQ {
+        @apply max-w-[940px]
+    }
+
+    .textIfFirst {
+        @apply w-[258px]
+    }
+
+    .firstTextFAQ {
+        @apply w-[293px]
+    }
+
+    .secondTextFAQ {
+        @apply w-[147px]
+    }
+
+    .thirdTextFAQ {
+        @apply w-[147px]
+    }
+
+    .fourthTextFAQ {
+        @apply w-[294px]
+    }
