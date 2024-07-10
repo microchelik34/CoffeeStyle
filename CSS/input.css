@@ -107,7 +107,7 @@
     }
 
     .buttonCoffeeMag {
-        @apply w-[173px] h-[36px]
+        @apply max-w-[173px] h-[36px]
     }
 
 
@@ -134,19 +134,19 @@
 
     /*Subscribe*/
     .backSub {
-        @apply w-[1380px] h-[327px]
+        @apply w-[1380px] min-h-[327px]
     }
 
     .containerSub {
-        @apply w-[940px] h-[162px]
+        @apply max-w-[940px]
     }
 
     .containerInSub {
-        @apply  w-[489px] h-[54px]
+        @apply  max-w-[489px]
     }
 
     .formSub {
-        @apply w-[350px] h-[54px]
+        @apply max-w-[350px]
     }
 
     .buttonSub {
@@ -159,21 +159,21 @@
     }
 
     .textIfFirst {
-        @apply w-[258px]
+        @apply max-w-[258px]
     }
 
     .firstTextFAQ {
-        @apply w-[293px]
+        @apply max-w-[293px]
     }
 
     .secondTextFAQ {
-        @apply w-[147px]
+        @apply max-w-[147px]
     }
 
     .thirdTextFAQ {
-        @apply w-[147px]
+        @apply max-w-[147px]
     }
 
     .fourthTextFAQ {
-        @apply w-[294px]
+        @apply max-w-[294px]
     }

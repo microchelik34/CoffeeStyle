@@ -802,8 +802,8 @@ body {
   top: 53px;
 }
 
-.z-50 {
-  z-index: 50;
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -927,6 +927,10 @@ body {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-items-center {
   justify-items: center;
 }
@@ -943,12 +947,8 @@ body {
   gap: 1.25rem;
 }
 
-.gap-\[15px\] {
-  gap: 15px;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1295,7 +1295,7 @@ body {
 
 .buttonCoffeeMag {
   height: 36px;
-  width: 173px;
+  max-width: 173px;
 }
 
 /*Section 3*/
@@ -1325,23 +1325,20 @@ body {
 /*Subscribe*/
 
 .backSub {
-  height: 327px;
+  min-height: 327px;
   width: 1380px;
 }
 
 .containerSub {
-  height: 162px;
-  width: 940px;
+  max-width: 940px;
 }
 
 .containerInSub {
-  height: 54px;
-  width: 489px;
+  max-width: 489px;
 }
 
 .formSub {
-  height: 54px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .buttonSub {
@@ -1356,23 +1353,23 @@ body {
 }
 
 .textIfFirst {
-  width: 258px;
+  max-width: 258px;
 }
 
 .firstTextFAQ {
-  width: 293px;
+  max-width: 293px;
 }
 
 .secondTextFAQ {
-  width: 147px;
+  max-width: 147px;
 }
 
 .thirdTextFAQ {
-  width: 147px;
+  max-width: 147px;
 }
 
 .fourthTextFAQ {
-  width: 294px;
+  max-width: 294px;
 }
 
 .focus\:outline-none:focus {
@@ -1456,6 +1453,10 @@ body {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:grid-rows-3 {
