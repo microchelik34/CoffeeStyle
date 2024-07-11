@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,7 +14,7 @@
 <body class="bg-white">
 <!--Section 1-->
         <!--Header-->
-        <header class="headerClass flex mx-auto justify-center items-center gap-5 sticky top-0 shadow-lg lg:px-5 bg-white md:justify-between ">
+        <header id="nav" class="headerClass flex mx-auto justify-center items-center gap-5 sticky top-0 shadow-lg lg:px-5 bg-white md:justify-between ">
             <!--Logo-->
             <a class="" href="#">
                 <svg width="112" height="24" viewBox="0 0 112 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -28,13 +28,13 @@
                 </svg>
             </a>
             <!--Menu-->
-            <nav class="menuClass md:hidden ">
+            <nav id="menu" class="menuClass md:hidden ">
                 <ul class="flex items-center justify-center gap-8">
-                    <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Home</a></li>
-                    <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Our Products</a></li>
-                    <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Blog</a></li>
-                    <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">About</a></li>
-                    <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Contact</a></li>
+                    <li><a href="#home" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Home</a></li>
+                    <li><a href="#our-products" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Our Products</a></li>
+                    <li><a href="#blog" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Blog</a></li>
+                    <li><a href="#about" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">About</a></li>
+                    <li><a href="#contact" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Contact</a></li>
                     <li><a href="#" class="font-normal text-xs leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Styleguide</a></li>
                 </ul>
             </nav>
@@ -76,7 +76,7 @@
         </header>
 
         <!-- Mobile menu panel -->
-        <div id="mobile-menu" class="container w-1/2 fixed inset-y-0 right-0 bg-white menuPanel shadow-lg hidden ">
+        <div id="mobile-menu"  class="container w-1/2 fixed inset-y-0 right-0 bg-white menuPanel shadow-lg hidden ">
             <div class="grid gap-5">
                 <div class="mt-6 mr-5 justify-self-end">
                     <button id="close-menu-button" class="text-gray-600  focus:outline-none">
@@ -89,12 +89,12 @@
             <div>
                 <nav class="p-4 space-y-4">
                     <ul class="grid items-center gap-8">
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Home</a></li>
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Our Products</a></li>
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Blog</a></li>
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">About</a></li>
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Contact</a></li>
-                        <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Styleguide</a></li>
+                        <li><a href="#home" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Home</a></li>
+                        <li><a href="#our-products" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Our Products</a></li>
+                        <li><a href="#blog" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Blog</a></li>
+                        <li><a href="#about" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">About</a></li>
+                        <li><a href="#contact" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Contact</a></li>
+                        <li><a  class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest">Styleguide</a></li>
                         <li><a href="#" class="font-normal text-xl leading-[150%] text-standardColor font-Karla uppercase tracking-widest" >Cart</a></li>
                     </ul>
                 </nav>
@@ -103,7 +103,7 @@
         </div>
 
         <!--Hero-->
-        <section class="mb-[120px]">
+        <section id="home"  class="mb-[120px]">
             <div class="flex mx-auto justify-center">
                 <div class="back bg-local bg-center" style="background-image: url(Images/back.svg)">
                     <div class="backText grid justify-items-center mx-auto mt-[159px] text-center">
@@ -137,7 +137,7 @@
         </section>
 
         <!--2 Tiles-->
-        <section class="mb-[100px] mx-auto md:mb-[100px]">
+        <section id="our-products" class="mb-[100px] mx-auto md:mb-[100px]">
             <div class="twoTilesText flex items-center text-center justify-center mx-auto gap-5 mb-[100px]">
                 <div>
                     <svg class="mx-auto" width="30" height="1" viewBox="0 0 30 1" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +246,12 @@
                 </div>
             </div>
 
-            <div class="textNineTiles flex items-center text-center justify-center mx-auto gap-5">
+
+        </section>
+
+        <!--CoffeeMagazine-->
+        <section id="blog" class="mb-[130px]">
+            <div class="textNineTiles flex items-center text-center justify-center mx-auto gap-5 mb-[100px]">
                 <div>
                     <svg class="mx-auto" width="30" height="1" viewBox="0 0 30 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0H30V1H0V0Z" fill="#ECECED"/>
@@ -261,10 +266,6 @@
                     </svg>
                 </div>
             </div>
-        </section>
-
-        <!--CoffeeMagazine-->
-        <section class="mb-[130px]">
             <div class="gridCoffeeMag grid grid-cols-2 justify-items-center mx-auto gap-5 md:grid-cols-1 md:grid-rows-2">
                 <div class="">
                     <img src="Images/ThreeInOne.svg" alt=""/>
@@ -292,7 +293,7 @@
         </section>
 
         <!--History table-->
-        <section class="mb-[100px]">
+        <section id="about" class="mb-[100px]">
             <div>
                 <div class="textHistoryTable flex items-center text-center justify-center mx-auto gap-5 mb-[100px]">
                     <div>
@@ -359,7 +360,7 @@
         </section>
 
         <!--Subscribe-->
-        <section class="mb-[100px]">
+        <section id="contact" class="mb-[100px]">
             <div class="flex mx-auto justify-center">
                 <div class="backSub bg-local bg-standardColor ">
                     <div class="mx-auto pt-[80px] justify-center text-center">

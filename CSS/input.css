@@ -12,6 +12,10 @@
     overflow: hidden;
 }
 
+#mobile-menu {
+    @apply transition-opacity duration-300;
+}
+
 /*Section 1*/
 
     /*Header*/
