@@ -5,10 +5,10 @@ document.getElementById('menu-button').addEventListener('click', function() {
     menu.classList.toggle('show');
 });
 
-document.getElementById('close-menu-button').addEventListener('click', function() {
-    menu.classList.add('hidden');
-    menu.classList.remove('show');
-});
+// document.getElementById('close-menu-button').addEventListener('click', function() {
+//     menu.classList.add('hidden');
+//     menu.classList.remove('show');
+// });
 
 // Закрытие меню при клике вне его
 document.addEventListener('click', function(event) {
