@@ -8,6 +8,10 @@
     }
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 /*Section 1*/
 
     /*Header*/
@@ -20,7 +24,6 @@
     .menuClass {
         @apply w-[656px] h-[30px]
     }
-
 
     /*Actions*/
     .actions {
